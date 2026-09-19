@@ -1,0 +1,10 @@
+## Visual Studio / .NET ignores
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+.vscode/
