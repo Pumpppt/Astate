@@ -4,7 +4,7 @@ A modern .NET library designed for launching and injecting custom modules into F
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 1. [Features](#features)
 2. [How It Works](#how-it-works)
@@ -19,7 +19,7 @@ A modern .NET library designed for launching and injecting custom modules into F
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Dual Launch Modes**:
   - **Client**: Starts suspended EAC/Launcher processes, launches Fortnite Shipping exe with client arguments, and injects client DLLs.
@@ -36,7 +36,7 @@ A modern .NET library designed for launching and injecting custom modules into F
 
 ---
 
-## 🧩 The 4-DLL Architecture
+##  The 4-DLL Architecture
 
 When launching either a **Client** or a **Host**, `Astate` injects the corresponding DLLs in order:
 
@@ -61,7 +61,7 @@ When launching either a **Client** or a **Host**, `Astate` injects the correspon
 
 ---
 
-## 📦 Adding Astate to Your Project
+##  Adding Astate to Your Project
 
 ### Option A: Project Reference (Recommended)
 
@@ -92,7 +92,7 @@ Build `Astate` (`dotnet build -c Release`), then reference `Astate.dll`:
 
 ---
 
-## 🚀 Quick Start Code Examples
+##  Quick Start Code Examples
 
 ### 1. Configuring the 4 DLLs
 
@@ -178,7 +178,7 @@ if (result.ShippingProcess != null)
 
 ---
 
-## 🖥️ GUI App Integration Example
+##  GUI App Integration Example
 
 Here is a practical integration pattern for a launcher UI (WPF / WinForms / Avalonia / MAUI):
 
@@ -318,7 +318,7 @@ private async void OnLaunchHostClicked(object sender, EventArgs e)
 
 ---
 
-## 📚 API Reference Summary
+##  API Reference Summary
 
 ### `FortniteDllConfig`
 - `GameConsoleDll` (`string?`): Path to Console / Client DLL.
